@@ -8,7 +8,16 @@ northwind:
       password: postgres
       port: 5432
       dbname: northwind
-      schema: public
+      schema: "development"
       threads: 4
-      connect_timeout: 10 # default 10 seconds
-
+      connect_timeout: 10
+    prod:
+      type: postgres
+      host: 172.19.0.1
+      user: postgres
+      password: postgres
+      port: 5432
+      dbname: northwind
+      schema: "analytics"
+      threads: 4
+      connect_timeout: 10
