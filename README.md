@@ -1,9 +1,9 @@
 # Codespace Development Environment
 Code Space Environment for Testing
 
-|-----------------|----------|---------|----------|
 | Version Control | Alerting | Logging | Metadata |
-| Lineage         | Test     | Deploy  | Document |
+|----------------|----------|---------|----------|
+| Lineage         | Test     | Deploy  | Document  |
 
 ## DBT - Benefícios
 Enviar e gerenciar comandos para que os dados sejam transformados diretamente no DW, com isso alguns benefícios:
